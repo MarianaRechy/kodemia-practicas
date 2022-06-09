@@ -1,0 +1,40 @@
+$card-color: #377;
+$secondary: tomato;
+
+.card{
+    background: $card-color;
+    height: 100px;
+    width: 100px;
+    margin: 8px;
+    padding: 1rem;
+}
+
+.card1{
+    background: $card-color;
+    height: 100px;
+    width: 100px;
+    margin: 8px;
+    padding: 1rem;
+}
+
+.container{
+    background-color: #377;
+    height: 800px;
+    ul{
+        li{
+            &.primary{
+                background:#377;
+            }
+            &.secondary{
+                background:#377;
+            }     
+        }
+            + a .{
+            padding: 1rem;
+            background-color: aqua;
+            &:hover{
+                background: green;
+            }
+        }
+    }
+}

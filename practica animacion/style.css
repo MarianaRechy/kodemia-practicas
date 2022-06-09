@@ -1,0 +1,37 @@
+.imagen{
+    height: 100px;
+    width: 150px;
+    animation: logodvd 3s infinite;
+}
+
+body{
+    background-color: black;
+    height: 100%vh;
+    width: 100%vw;
+}
+
+@keyframes logodvd{
+    from{
+        left: 0px;
+        top: 0px;
+    }
+    to{
+        left: 1100px;
+        top: 200px;
+    }
+}
+
+@keyframes logodvd{
+    25%{
+        color: blue;
+    }
+    50%{
+        color:blueviolet
+    }
+    75%{
+
+    }
+    100%{
+        color:palevioletred
+    }
+}
