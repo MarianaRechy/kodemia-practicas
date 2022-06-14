@@ -106,23 +106,26 @@ header a{
     width: 380px; 
 }
 
-.menu{
-    width: 1800px;
+.nav{
+    height: 80px;    
 }
 
-.hamburguesa{
-    width: 60px;
-    background-color: aqua;
-    text-decoration: none;
+.nav-container{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: baseline;
+    align-items: center;
 }
 
-#animacion:checked + label{
-    color: red;
+.nav-input, .nav-label{
     display: none;
 }
 
-ul{
-    height: 30%;
-    width: 15%;
-    background-color: blue;
-}
+
+
+
+
+
+
